@@ -1,0 +1,45 @@
+html {
+    background-color: rgb(0, 0, 0);
+}
+
+.container {
+    overflow: hidden;
+}
+
+
+.img-container img {
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.img-container img:hover {
+    transform: scale(1.2);
+    
+}
+
+.container {
+    position: relative;
+}
+
+.bilde img {
+    width: 40%;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+
+.bilde2 img {
+    width: 33%;
+    height: auto;
+    position: absolute;
+    top: 36px;
+    left: 45px;
+}
+
+.bilde3 img {
+    width: 18.5%;
+    height: auto;
+    position: absolute;
+    top: 420px;
+    left: 9px;
+}
